@@ -1,2 +1,2 @@
-# anti-hipster-brigade
+# nomorehipsters
 SFI gentrification project!
