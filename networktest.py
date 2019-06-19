@@ -29,3 +29,15 @@ for pair in G.degree:
 plt.hist(usernodes, 500)
 
 plt.show()
+
+
+#make list of degrees of all user nodes
+biznodes = []
+for pair in G.degree: 
+    if "biz" in pair[0]:
+        biznodes.append(pair[1]) 
+
+#Plot degree histogram of users
+plt.hist(biznodes, 500)
+
+plt.show()
